@@ -204,6 +204,19 @@ do_install() {
     print_info "设置开机自启..."
     systemctl enable "$SERVICE_NAME" &>/dev/null
     
+    # 启动服务
+    print_info "启动服务..."
+    systemctl start "$SERVICE_NAME"
+    
+    sleep 1
+    
+    if is_running; then
+        print_success "服务启动成功"
+    else
+        print_warning "服务启动失败，请手动检查"
+        print_info "使用 'journalctl -u ${SERVICE_NAME} -n 50' 查看日志"
+    fi
+    
     # 保存安装信息
     echo "INSTALL_TIME=$(date '+%Y-%m-%d %H:%M:%S')" > "${INSTALL_DIR}/.install_info"
     echo "DOWNLOAD_URL=${DOWNLOAD_URL}" >> "${INSTALL_DIR}/.install_info"
