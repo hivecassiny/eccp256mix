@@ -10,7 +10,7 @@ eccp256mix
   ```shell
    bash <(curl -s -L https://raw.githubusercontent.com/hivecassiny/eccp256mix/refs/heads/main/install.sh) https://github.com/hivecassiny/eccp256mix/raw/refs/heads/main/eccp256mixlinux32armv7l.tar.gz
   ```
-
+### 忽略
   ```shell
    wget https://raw.githubusercontent.com/hivecassiny/eccp256mix/main/openwrt_install.sh 
   ```
