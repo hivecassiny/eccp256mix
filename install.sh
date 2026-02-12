@@ -6,7 +6,7 @@
 #######################################
 
 # 脚本版本号
-SCRIPT_VERSION="v1.0.1"
+APP_VERSION="v1.0.7"
 
 # 颜色定义
 RED='\033[0;31m'
@@ -454,7 +454,7 @@ show_menu() {
     clear
     echo ""
     echo -e "${CYAN}╔════════════════════════════════════════════════╗${NC}"
-    echo -e "${CYAN}║${NC}      ${GREEN}${PROGRAM_NAME} 服务管理工具${NC}   ${YELLOW}${SCRIPT_VERSION}${NC}      ${CYAN}║${NC}"
+    echo -e "${CYAN}║${NC}      ${GREEN}${PROGRAM_NAME} 服务管理工具${NC}   ${YELLOW}${APP_VERSION}${NC}      ${CYAN}║${NC}"
     echo -e "${CYAN}╠════════════════════════════════════════════════╣${NC}"
     echo -e "${CYAN}║${NC}                                                ${CYAN}║${NC}"
     echo -e "${CYAN}║${NC}   ${YELLOW}1.${NC} 安装服务                               ${CYAN}║${NC}"
