@@ -454,7 +454,7 @@ show_menu() {
     clear
     echo ""
     echo -e "${CYAN}╔════════════════════════════════════════════════╗${NC}"
-    echo -e "${CYAN}║${NC}      ${GREEN}${PROGRAM_NAME} 服务管理工具${NC}   ${YELLOW}${APP_VERSION}${NC}      ${CYAN}║${NC}"
+    echo -e "${CYAN}║${NC}      ${GREEN}${PROGRAM_NAME} 矿池高级混淆加密${NC}   ${YELLOW}${APP_VERSION}${NC}      ${CYAN}║${NC}"
     echo -e "${CYAN}╠════════════════════════════════════════════════╣${NC}"
     echo -e "${CYAN}║${NC}                                                ${CYAN}║${NC}"
     echo -e "${CYAN}║${NC}   ${YELLOW}1.${NC} 安装服务                               ${CYAN}║${NC}"
